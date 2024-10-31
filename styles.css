@@ -1,0 +1,351 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Section styling */
+section {
+    
+    max-width: 800px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Intro section */
+.intro .device {
+    display: flex;
+    justify-content: center;
+    max-width: none;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Description */
+.description {
+    background-color: #FCF6F6;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    color: #000000;
+text-align: center;
+font-family: "Open Sans";
+font-size: 32px;
+font-style: bold;
+font-weight: 600;
+line-height: 110%; /* 70.4px */
+letter-spacing: -2.12px;
+}
+
+.description .small-text {
+    font-size: 20px;
+}
+
+.mac-buttons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+.small-text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+.description p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 30px;
+}
+
+/* Styles */
+.styles h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.big-20 {
+    font-size: 25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.small-text {
+    font-size: 1em;
+}
+
+.small-2 {
+    font-size: 5rem;
+}
+
+.underline {
+    width: 98%;
+    border: none;
+    border-top: solid #ccc;
+    margin: auto;
+}
+
+.styles .styles-list {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+.styles .styles-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styles .styles-list span {
+    margin-left: 10px;
+    color: #888;
+}
+
+/* Numbers */
+.numbers h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Characteristics */
+.characteristics h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.characteristics-details span {
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 1em;
+    color: #000;
+}
+
+/* Support section */
+.support h2 {
+    font-family: "Open Sans";
+font-size: 122.594px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    font-size: 4em;
+    margin-bottom: 10px;
+    letter-spacing: -6.808px;
+
+}
+
+.support p {
+    font-size: 1.1em;
+    color: #4caf50;
+}
+
+/* Glyphs section */
+.glyphs h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.keyboard {
+    width: 200px;
+    height: 100px;
+    background-color: #DEC6C6;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Styles for list */
+.styles .styles-list {
+    list-style-type: none;
+    font-size: 4em;  /* Increase the font size */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Align items to the left */
+    color: #000000;  /* Text color black */
+}
+
+.styles .styles-list li {
+    display: flex;
+    justify-content: space-between;  /* Space between Regular/Italic and x5 */
+    width: 100%;  /* Ensure li spans full width */
+}
+
+.styles .styles-list .regular {
+    text-align: left;
+    font-weight: normal;
+    color: #000000;
+}
+
+.styles .styles-list .italic {
+    text-align: left;
+    font-style: italic;
+    color: #000000;
+}
+
+.styles .styles-list .condensed {
+    text-align: left;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #000000;
+}
+
+.styles .styles-list .condensed-italic {
+    text-align: left;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-style: italic;
+    color: #000000;
+}
+
+.styles .styles-list .re,
+.styles .styles-list .it,
+.styles .styles-list .co,
+.styles .styles-list .coi {
+    font-weight: normal;
+    font-style: italic;
+    color: #888;  /* Slightly less black */
+    text-align: right;  /* Align text to the right */
+}
+
+.styles .styles-list .re {
+    font-style: normal;
+}
+
+.styles .styles-list .it {
+    font-style: italic;
+}
+
+.styles .styles-list .co {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-style: italic;
+}
+
+.styles .styles-list .coi {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-style: italic;
+}
+
+.numbers {
+    font-size: 4em;
+    color: #000000;
+    justify-content: center;
+}
+
+.number-icons {
+    display: flex;
+    justify-content: space-between;  /* Distribute evenly across the line */
+    width: 100%;  /* Make sure it takes up the full width */
+}
+
+.number-icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 95px;
+    background-color: red;  /* Red circles */
+    color: white;  /* White numbers */
+    border-radius: 50%;  /* Make circles */
+    font-size: 1.2em;  /* Adjust font size */
+    line-height: normal;  /* Ensure text is centered */
+    text-align: center;
+    margin: -50px 5px 20px;  /* Add some margin for spacing */
+    padding: 10px;  /* Reset padding */
+    justify-content: space-between;
+}
+
+/* Adjust the first and last circles to be partially off-screen */
+.number-icons span:first-child {
+    margin-left: -60px; /* Shift to the left */
+}
+
+.number-icons span:last-child {
+    margin-right: -160px; /* Shift to the right */
+}
+
+.description img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.g {
+color: #15AF37;
+}
+
+.y {
+    color: #EEAD20;
+}
+
+.r {
+    color: #B3261E;
+    ;
+}
+
+.b {
+    color: #0051FF;
+}
+
+.intro .device {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 180%;
+    margin: 0 auto;
+}
+
+.intro .device img {
+    max-width: 120%; /* Scale up the image to fill more space */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px; /* Optional: rounds the corners */
+ 
+}
+
+.section {
+    width: 0;
+}
+
+.intro .devices img {
+    max-width: 50%; /* Scale up the image to fill more space */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px; /* Optional: rounds the corners */
+  
+}
